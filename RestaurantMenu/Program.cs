@@ -7,27 +7,36 @@ namespace RestaurantMenu
         static void Main(string[] args)
         {
             //public MenuItem(double price, string description, string category, DateTime timeOnMenu)
+            MenuItem shrimp = new MenuItem(5.00, "shrimp", "Appetizer", new DateTime(2020,06,20));
 
-            MenuItem pizza = new MenuItem(5.00, "cheese", "MainCourse", DateTime.Today);
+            MenuItem chips = new MenuItem(2.00, "chips", "Appetizer", DateTime.Today);
+
+            MenuItem pizza = new MenuItem(5.00, "cheese pizza", "MainCourse", DateTime.Today);
 
             //DateTime iceCreamAdded = DateTime(6, 20, 2021, 12, 00);
 
-            MenuItem iceCream = new MenuItem(4.00, "chocolate", "Dessert", DateTime.Today);
+            MenuItem iceCream = new MenuItem(4.00, "chocolate ice cream", "Dessert", DateTime.Today);
 
 
-            Menu juneMenu = new Menu(pizza);
+            Menu currentMenu = new Menu();
 
-            juneMenu = new Menu(iceCream);
-            
-
-
-
-
+            currentMenu.AddItems(pizza);
+            currentMenu.AddItems(shrimp);
+            currentMenu.AddItems(iceCream);
+            currentMenu.AddItems(chips);
 
 
-            Console.WriteLine(pizza.Price);
+            currentMenu.PrintMenu("Appetizers");
+            Console.WriteLine("--------------------");
+            currentMenu.PrintMenu("MainCourses");
+            Console.WriteLine("--------------------");
+            currentMenu.PrintMenu("Desserts");
 
-            Console.WriteLine(iceCream.Category);
+
+
+            //Console.WriteLine(pizza.Price);
+
+            //Console.WriteLine(iceCream.Category);
 
 
         }
