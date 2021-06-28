@@ -1,0 +1,16 @@
+C:\Users\Shea Cooke\Desktop\LaunchCode\C#\Chapter_18_Studio\RestaurantMenu\RestaurantMenu\bin\Debug\net5.0\RestaurantMenu.exe
+C:\Users\Shea Cooke\Desktop\LaunchCode\C#\Chapter_18_Studio\RestaurantMenu\RestaurantMenu\bin\Debug\net5.0\RestaurantMenu.deps.json
+C:\Users\Shea Cooke\Desktop\LaunchCode\C#\Chapter_18_Studio\RestaurantMenu\RestaurantMenu\bin\Debug\net5.0\RestaurantMenu.runtimeconfig.json
+C:\Users\Shea Cooke\Desktop\LaunchCode\C#\Chapter_18_Studio\RestaurantMenu\RestaurantMenu\bin\Debug\net5.0\RestaurantMenu.runtimeconfig.dev.json
+C:\Users\Shea Cooke\Desktop\LaunchCode\C#\Chapter_18_Studio\RestaurantMenu\RestaurantMenu\bin\Debug\net5.0\RestaurantMenu.dll
+C:\Users\Shea Cooke\Desktop\LaunchCode\C#\Chapter_18_Studio\RestaurantMenu\RestaurantMenu\bin\Debug\net5.0\ref\RestaurantMenu.dll
+C:\Users\Shea Cooke\Desktop\LaunchCode\C#\Chapter_18_Studio\RestaurantMenu\RestaurantMenu\bin\Debug\net5.0\RestaurantMenu.pdb
+C:\Users\Shea Cooke\Desktop\LaunchCode\C#\Chapter_18_Studio\RestaurantMenu\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.csproj.AssemblyReference.cache
+C:\Users\Shea Cooke\Desktop\LaunchCode\C#\Chapter_18_Studio\RestaurantMenu\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shea Cooke\Desktop\LaunchCode\C#\Chapter_18_Studio\RestaurantMenu\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.AssemblyInfoInputs.cache
+C:\Users\Shea Cooke\Desktop\LaunchCode\C#\Chapter_18_Studio\RestaurantMenu\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.AssemblyInfo.cs
+C:\Users\Shea Cooke\Desktop\LaunchCode\C#\Chapter_18_Studio\RestaurantMenu\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.csproj.CoreCompileInputs.cache
+C:\Users\Shea Cooke\Desktop\LaunchCode\C#\Chapter_18_Studio\RestaurantMenu\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.dll
+C:\Users\Shea Cooke\Desktop\LaunchCode\C#\Chapter_18_Studio\RestaurantMenu\RestaurantMenu\obj\Debug\net5.0\ref\RestaurantMenu.dll
+C:\Users\Shea Cooke\Desktop\LaunchCode\C#\Chapter_18_Studio\RestaurantMenu\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.pdb
+C:\Users\Shea Cooke\Desktop\LaunchCode\C#\Chapter_18_Studio\RestaurantMenu\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.genruntimeconfig.cache
