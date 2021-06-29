@@ -11,6 +11,8 @@ namespace RestaurantMenu
 		public List<MenuItem> MainCourses = new List<MenuItem> ();
 		public List<MenuItem> Desserts = new List<MenuItem> ();
 
+		public List<MenuItem> TotalMenu = new List<MenuItem>();
+
 		
 
 		public void PrintMenu (string category)
@@ -47,20 +49,41 @@ namespace RestaurantMenu
 
 		public void AddItems (MenuItem item)
         {
-			if (item.Category == "Appetizer")
-			{
-				this.Appetizers.Add(item);
+
+			bool itemInMenu = false;
+
+			foreach (var i in TotalMenu)
+            {
 				
-			}
-			else if (item.Category == "MainCourse")
-			{
-				this.MainCourses.Add(item);
+				if (i.Equals(item))
+                {
+                    Console.WriteLine("That item is already in this menu.");
+					itemInMenu = true;
+					//System.Environment.Exit(0);
+                }
 				
-			}
-			else
+            }
+			if (!itemInMenu)
 			{
-				this.Desserts.Add(item);
-				
+				if (item.Category == "Appetizer")
+				{
+					this.Appetizers.Add(item);
+					this.TotalMenu.Add(item);
+
+				}
+				else if (item.Category == "MainCourse")
+				{
+					this.MainCourses.Add(item);
+					this.TotalMenu.Add(item);
+
+				}
+				else
+				{
+					this.Desserts.Add(item);
+					this.TotalMenu.Add(item);
+
+				}
+
 			}
 		}
 

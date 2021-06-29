@@ -25,7 +25,7 @@ namespace RestaurantMenu
             currentMenu.AddItems(iceCream);
             currentMenu.AddItems(chips);
 
-
+            
             currentMenu.PrintMenu("Appetizers");
             Console.WriteLine("--------------------");
             currentMenu.PrintMenu("MainCourses");
@@ -35,12 +35,18 @@ namespace RestaurantMenu
             Console.WriteLine("--------------------");
             currentMenu.PrintMenu("Appetizers");
             Console.WriteLine("--------------------");
-            Menu.LastMenuUpdate();
+            //Menu.LastMenuUpdate();
             Console.WriteLine("--------------------");
-            currentMenu.PrintItem(chips);
+            //currentMenu.PrintItem(chips);
+
+            currentMenu.AddItems(chips);
+            currentMenu.PrintMenu("Appetizers");
 
 
-            Console.WriteLine(pizza.Equals(pizza));
+
+
+
+            // Console.WriteLine(pizza.Equals(pizza));
 
 
 
