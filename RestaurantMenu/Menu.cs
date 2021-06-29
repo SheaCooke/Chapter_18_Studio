@@ -5,7 +5,7 @@ namespace RestaurantMenu
 	public class Menu
 	{
 
-		public DateTime LastUpdated = DateTime.Today;
+		public static DateTime LastUpdated = new DateTime(2021, 06, 28);
 
 		public List<MenuItem> Appetizers = new List<MenuItem> ();
 		public List<MenuItem> MainCourses = new List<MenuItem> ();
@@ -63,10 +63,78 @@ namespace RestaurantMenu
 				
 			}
 		}
-		public Menu()
+
+		public void RemoveItems(MenuItem item)
+        {
+			if (item.Category == "Appetizer")
+			{
+				this.Appetizers.Remove(item);
+
+			}
+			else if (item.Category == "MainCourse")
+			{
+				this.MainCourses.Remove(item);
+
+			}
+			else
+			{
+				this.Desserts.Remove(item);
+
+			}
+
+		}
+
+		public static void LastMenuUpdate()
+        {
+            Console.WriteLine($"The menu was last updated on {LastUpdated}");
+        }
+
+		public void PrintItem(MenuItem item)
+        {
+			if (item.Category == "Appetizer")
+			{
+                foreach (var i in Appetizers)
+                {
+					if (i.Description == item.Description)
+                    {
+                        Console.WriteLine($"Description: {item.Description} \nPrice {item.Price} \nDate added to menu: {item.DateAdded}");
+                    }
+                }
+
+			}
+			else if (item.Category == "MainCourse")
+			{
+				foreach (var i in MainCourses)
+				{
+					if (i.Description == item.Description)
+					{
+						Console.WriteLine($"Description: {item.Description} \nPrice {item.Price} \nDate added to menu: {item.DateAdded}");
+					}
+				}
+
+			}
+			else if (item.Category == "Dessert")
+			{
+				foreach (var i in Desserts)
+				{
+					if (i.Description == item.Description)
+					{
+						Console.WriteLine($"Description: {item.Description} \nPrice {item.Price} \nDate added to menu: {item.DateAdded}");
+					}
+				}
+
+			}
+			else
+			{
+				Console.WriteLine("Invalid entry");
+			}
+		}
+
+        
+        public Menu()
 		{
 			
-			
+
 		}
 	}
 }
